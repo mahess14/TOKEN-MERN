@@ -6,7 +6,7 @@ import entryRoutes from './routes/entries.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/token_ledger';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://garidepallimaheshkumar_db_user:6tsKhy87kwJM70Xz@cluster0.zfe6uvv.mongodb.net/token_ledger-MERN';
 const allowedOrigins = (process.env.CLIENT_URL || 'http://localhost:5173')
   .split(',')
   .map((s) => s.trim());
